@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useSelector } from "react-redux";
-import ReactDOM from "react-dom/client";
 import "./imageContainer.css";
 
 const ImageContainerComp = ({ imageData, clickHandler }) => {
