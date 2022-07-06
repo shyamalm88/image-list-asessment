@@ -14,6 +14,7 @@ const ImageContainerComp = ({ imageData, clickHandler }) => {
             src={imageData.image}
             className="img"
             style={{ opacity: changeTheNumber }}
+            alt={imageData.text}
           />
           <div className="text">{imageData.text}</div>
         </div>
