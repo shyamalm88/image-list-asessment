@@ -1,0 +1,13 @@
+.img {
+  width: 100%;
+  height: 202px;
+}
+
+.text {
+  text-align: center;
+}
+
+.cardImage {
+  border: 1px solid #ccc;
+  padding: 10px;
+}

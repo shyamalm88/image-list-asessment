@@ -1,0 +1,44 @@
+.main {
+  height: calc(100vh - 46px);
+  overflow-y: auto;
+  border-right: 1px solid #ccc;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #33333380;
+  height: calc(100vh);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalBody {
+  width: 70vw;
+  background-color: #fff;
+  padding: 20px;
+  max-height: calc(90vh);
+  position: absolute;
+  overflow: hidden;
+  top: 20px;
+  overflow-y: auto;
+}
+
+.modalBody img {
+  max-width: 100%;
+}
+
+.modalClose {
+  border: none;
+  background: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  float: right;
+  position: absolute;
+  cursor: pointer;
+  right: 0px;
+  font-size: 16px;
+  right: 20px;
+}

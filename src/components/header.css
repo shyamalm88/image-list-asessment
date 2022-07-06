@@ -1,0 +1,8 @@
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+}
+
+.searchContainer {
+  width: calc(100vw - 20%);
+  margin: auto;
+}
