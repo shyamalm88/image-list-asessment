@@ -17,7 +17,7 @@ const HeaderComp = ({ onEnter }) => {
             <input
               type="text"
               className="form-control"
-              placeholder="Search Here"
+              placeholder="For Search with keywords Press Enter"
               value={value}
               onChange={onSearchHandler}
               onKeyUp={(e) => onEnter(e, value)}
